@@ -1,0 +1,8 @@
+.semi-final-conatiner {
+  display: flex;
+}
+.result-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}

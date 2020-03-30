@@ -1,0 +1,51 @@
+.final-container {
+  display: flex;
+}
+.final-result-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 12px;
+}
+.reset-button {
+  border-radius: 16px;
+  border: 3px solid #ccc;
+  height: 32px;
+  margin-top: 20px;
+}
+.reset-button:focus {
+  outline: 0;
+}
+.result-value {
+  display: flex;
+  flex-direction: column;
+}
+.results-conatiner {
+  display: flex;
+  flex: 1;
+}
+.semi-winner-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  flex: 1;
+}
+.champions-result {
+  flex: 1;
+  background-color: cornflowerblue;
+}
+.loosers-result {
+  flex: 1;
+  background-color: cyan;
+}
+.flex-box {
+  flex: 1;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.right-border {
+  border-right: 3px solid black;
+}

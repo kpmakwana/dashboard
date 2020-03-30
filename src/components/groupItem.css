@@ -1,0 +1,50 @@
+.group-item-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.group-name {
+  margin-left: 10px;
+  font-size: 80px;
+  width: 60px;
+}
+.disable-font {
+  color: rgb(125,138,161);
+}
+.team-container {
+  margin-left: 10px;
+  width: 100px;
+}
+.team-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.group-result {
+  height: 100%;
+  width: 180px;
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.reult-type, .group-winner {
+  height: 50%;
+}
+.reult-label {
+  border-bottom: black 3px solid;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 16px;
+  flex: 1;
+}
+.right-border {
+  border-right: 3px solid black;
+}
+.left-border {
+  border-left: 3px solid black;
+}
+.result-value {
+  text-align: center;
+  padding-top: 4px;
+  flex: 1;
+}
